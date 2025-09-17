@@ -1,0 +1,11 @@
+1 create virtual environment
+2 install langhchain dependencies => pip install langchain langchain-community langchain-text-splitters langgraph langchain-core
+3 hugging face sentence transformers => -U sentence-transformers
+4 install faiss for local similarity search no CPU needed => pip install faiss-cpu
+5 pip install pypdf2 beautifulsoup4
+6 for chat interface => pip install streamlit
+7 for backend => pip install fastapi uvicorn
+8 for web logging and general use => pip install requests
+9 setup groq api key in env file => pip install python-dotenv
+A install langchain integration => pip install langchain-groq
+B
