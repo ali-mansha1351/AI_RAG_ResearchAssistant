@@ -1,1 +1,35 @@
+
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+*.pyc
+__pycache__/
+
+# Environment variables
 .env
+.env.local
+
+# Uploads directory (if contains user data)
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
