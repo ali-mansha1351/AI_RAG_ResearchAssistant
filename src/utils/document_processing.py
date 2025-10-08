@@ -140,7 +140,7 @@ class DocumentProcessor:
                             page_text = page.get_text()
                         except TypeError:
                             # Older versions might not have parameters
-                            page_text = page.getText()
+                            page_text = page.get_text()
                     except AttributeError:
                         # Really old versions
                         try:
