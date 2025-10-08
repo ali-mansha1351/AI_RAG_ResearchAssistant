@@ -58,7 +58,7 @@ jobs:
             --memory=8Gi
             --cpu=4
             --timeout=3600
-            --max-instances=10
+            --max-instances=3
             --min-instances=1
             --concurrency=1000
             --port=8501
