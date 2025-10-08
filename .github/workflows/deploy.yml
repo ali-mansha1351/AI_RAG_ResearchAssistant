@@ -64,6 +64,7 @@ jobs:
             --port=8501
           env_vars: |
             GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}
+            HF_TOKEN=${{ secrets.HF_TOKEN }}
             APP_NAME=AI_RAG_Application
             APP_VERSION=1.0.0
             DEBUG=false
